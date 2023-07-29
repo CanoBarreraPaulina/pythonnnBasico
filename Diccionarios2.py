@@ -1,4 +1,3 @@
-
 materias ={}
 
 numero = int(input("¿cuantas materias deseas registrar?: "))

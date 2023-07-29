@@ -1,5 +1,7 @@
-archivo = open("archivo.txt","w+")
-archivo.write(input("escribe lo que quieras agregar al archivo:"))
+#archivo = open("archivo.txt","x")
+archivo=open("archivo.txt", "r+")
+
+archivo.write(input("escribe lo que quieras agregar al archivo:")+"\n")
 
 archivo.seek(0,0)
-print("el contenido del archivo es: ", archivo.readline())
+print(archivo.readline())
