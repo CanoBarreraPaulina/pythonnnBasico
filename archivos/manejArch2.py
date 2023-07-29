@@ -1,4 +1,4 @@
-archivo = open("archivo.txt","w+")
+archivo = open("archivos/archivo.txt","w+")
 
 archivo.write(input("escribe lo que quieras agregar al archivo:")+"\n")
 

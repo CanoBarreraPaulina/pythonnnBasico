@@ -1,4 +1,4 @@
-archivo=open("ejercicio3.txt","a")
+archivo=open("archivos/ejercicio3.txt","a")
 
 def text():
     if i==1:
@@ -6,7 +6,7 @@ def text():
         archivo.write(texto)
         archivo.close()
     elif i==2:
-        archiv=open("ejercicio3.txt", "r")
+        archiv=open("archivos/ejercicio3.txt", "r")
         ver=archiv.read()
         print("el texto guardado es:\n", ver)
         archiv.close()

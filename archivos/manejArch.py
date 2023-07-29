@@ -1,4 +1,4 @@
-archivo = open("originalMJ.txt","r")
+archivo = open("archivos/originalMJ.txt","r")
 archivo2 = open("archivocopia.txt","w+")
 Linea=archivo.readlines()
 archivo2.write(str(Linea))

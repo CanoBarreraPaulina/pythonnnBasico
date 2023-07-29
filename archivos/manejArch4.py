@@ -1,6 +1,6 @@
 def leer_archivo():
     if i=="ejercicio4.txt":
-        archivo=open("ejercicio4.txt","r")
+        archivo=open("archivos/ejercicio4.txt","r")
         leer=archivo.read()
         archivo.close()
         x=int(input("¿desea ver el contenido guardado?\n 1.si 2.no\n"))
